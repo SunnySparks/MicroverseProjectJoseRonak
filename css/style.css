@@ -1,0 +1,10 @@
+@media (min-width: 600px) {
+    body {
+        font-size: 1.25rem;
+    }
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+}

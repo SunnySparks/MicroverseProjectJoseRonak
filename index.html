@@ -20,7 +20,10 @@
     <h1>Buy Not a Flamethrower!</h1>
 
     <section id="features">
-    <p>Buy an overpriced Boring Company fire extinguisher! You can definitely buy one for less elsewhere, but this one comes with a cool sticker and the button is conveniently riiiight above.</p>
+      <div class="flex-container">
+        <div>Buy an overpriced Boring Company fire extinguisher! You can definitely buy one for less elsewhere, but this one comes with a cool sticker and the button is conveniently riiiight above.</div>
+        <div>Second element for CSS flexbox</div>
+      </div>
     </section>
 
     <section id="how-it-works"><video id="video" width="320" height="240" controls>
@@ -31,10 +34,10 @@
 
  
       <form id="form" action="https://www.freecodecamp.com/email-submit">
-        <p>Email:
-        </p>
-        <input id="email" type="email" placeholder="Enter your email here">
-        <input id="submit" type="submit" action="https://www.freecodecamp.com/email-submit">
+        <input name="email" id="email" type="email" placeholder="Enter your email here" required>
+        <input id="submit" type="submit">
       </form>
+
+      
   </body>
 </html>
